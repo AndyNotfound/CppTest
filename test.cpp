@@ -8,8 +8,8 @@ int arrLamaSewa[20], arrHargaSewa[20], arrtotalBayar[20], totalBayar, lamaSewa, 
 string arrNamaPenyewa[20], arrJudulFilm[20], arrJenisFilm[20], arrBonus[20], inputDataLagi, namaPenyewa, judulFilm, kodeFilm, jenisFilm, bonus;
 
 void menu (int i){
-	system("cls");
-	cin.clear();
+    system("cls");
+    cin.clear();
     cout<<"\nNama Penyewa        : ";cin >> namaPenyewa;
     cout<<"Judul Film          : "; cin >> judulFilm;
     cout<<"Kode Film (A/D/K)   : "; cin>>kodeFilm;
@@ -51,8 +51,8 @@ void show(){
 			break;
 		}
 	}
-	cout<<"\n\nn========================================================================================================================"<<endl;
-	cout<<"Total Seluruhnya\t\t\t\t: "<<totalBayar<<endl;	
+   cout<<"\n\nn========================================================================================================================"<<endl;
+   cout<<"Total Seluruhnya\t\t\t\t: "<<totalBayar<<endl;	
 }
 
 int main (){
