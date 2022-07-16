@@ -1,9 +1,5 @@
 #include<stdio.h>
-<<<<<<< HEAD
 #include<string>
-=======
-#include <string>
->>>>>>> 358a9a914eb8db08dab2c045e624dd6035ccc8a2
 #include<iostream>
 #include<conio.h>
 
@@ -12,17 +8,9 @@ int arrLamaSewa[20], arrHargaSewa[20], arrtotalBayar[20], totalBayar, lamaSewa, 
 string arrNamaPenyewa[20], arrJudulFilm[20], arrJenisFilm[20], arrBonus[20], inputDataLagi, namaPenyewa, judulFilm, kodeFilm, jenisFilm, bonus;
 
 void menu (int i){
-<<<<<<< HEAD
     system("clear");
-    cin.clear();
     cout<<"\nNama Penyewa        : "; getline(cin, namaPenyewa);
     cout<<"Judul Film          : "; getline(cin, judulFilm);
-=======
-    system("cls");
-    cin.clear();
-    cout<<"\nNama Penyewa        : ";cin >> namaPenyewa;
-    cout<<"Judul Film          : "; cin >> judulFilm;
->>>>>>> 358a9a914eb8db08dab2c045e624dd6035ccc8a2
     cout<<"Kode Film (A/D/K)   : "; cin>>kodeFilm;
         if (kodeFilm == "D" || kodeFilm =="d"){
             jenisFilm = "Drama";
