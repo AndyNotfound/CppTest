@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string>
 #include<iostream>
-#include<conio.h>
 
 using namespace std;
 int arrLamaSewa[20], arrHargaSewa[20], arrtotalBayar[20], totalBayar, lamaSewa, hargaSewa, totalBelanja;
